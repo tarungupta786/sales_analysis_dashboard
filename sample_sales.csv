@@ -1,0 +1,62 @@
+Order Date,Product,Category,Region,Units Sold,Unit Price
+2026-01-01,Notebook,Stationery,North,3,50
+2026-01-04,Storage Box,Home,West,8,300
+2026-01-07,USB Drive,Electronics,East,13,500
+2026-01-10,Backpack,Accessories,South,18,900
+2026-01-13,Planner,Stationery,North,5,180
+2026-01-16,Desk Lamp,Home,North,10,700
+2026-01-19,USB Drive,Electronics,West,15,500
+2026-01-22,Pen Pack,Stationery,East,20,80
+2026-01-25,Calculator,Electronics,South,7,650
+2026-01-28,Desk Lamp,Home,North,12,700
+2026-01-31,Water Bottle,Accessories,North,17,250
+2026-02-03,Notebook,Stationery,West,4,50
+2026-02-06,Calculator,Electronics,East,9,650
+2026-02-09,Headphones,Electronics,South,14,1200
+2026-02-12,Backpack,Accessories,North,19,900
+2026-02-15,Notebook,Stationery,North,6,50
+2026-02-18,Storage Box,Home,West,11,300
+2026-02-21,USB Drive,Electronics,East,16,500
+2026-02-24,Backpack,Accessories,South,3,900
+2026-02-27,Planner,Stationery,North,8,180
+2026-03-02,Desk Lamp,Home,North,13,700
+2026-03-05,USB Drive,Electronics,West,18,500
+2026-03-08,Pen Pack,Stationery,East,5,80
+2026-03-11,Calculator,Electronics,South,10,650
+2026-03-14,Desk Lamp,Home,North,15,700
+2026-03-17,Water Bottle,Accessories,North,20,250
+2026-03-20,Notebook,Stationery,West,7,50
+2026-03-23,Calculator,Electronics,East,12,650
+2026-03-26,Headphones,Electronics,South,17,1200
+2026-03-29,Backpack,Accessories,North,4,900
+2026-04-01,Notebook,Stationery,North,9,50
+2026-04-04,Storage Box,Home,West,14,300
+2026-04-07,USB Drive,Electronics,East,19,500
+2026-04-10,Backpack,Accessories,South,6,900
+2026-04-13,Planner,Stationery,North,11,180
+2026-04-16,Desk Lamp,Home,North,16,700
+2026-04-19,USB Drive,Electronics,West,3,500
+2026-04-22,Pen Pack,Stationery,East,8,80
+2026-04-25,Calculator,Electronics,South,13,650
+2026-04-28,Desk Lamp,Home,North,18,700
+2026-05-01,Water Bottle,Accessories,North,5,250
+2026-05-04,Notebook,Stationery,West,10,50
+2026-05-07,Calculator,Electronics,East,15,650
+2026-05-10,Headphones,Electronics,South,20,1200
+2026-05-13,Backpack,Accessories,North,7,900
+2026-05-16,Notebook,Stationery,North,12,50
+2026-05-19,Storage Box,Home,West,17,300
+2026-05-22,USB Drive,Electronics,East,4,500
+2026-05-25,Backpack,Accessories,South,9,900
+2026-05-28,Planner,Stationery,North,14,180
+2026-05-31,Desk Lamp,Home,North,19,700
+2026-06-03,USB Drive,Electronics,West,6,500
+2026-06-06,Pen Pack,Stationery,East,11,80
+2026-06-09,Calculator,Electronics,South,16,650
+2026-06-12,Desk Lamp,Home,North,3,700
+2026-06-15,Water Bottle,Accessories,North,8,250
+2026-06-18,Notebook,Stationery,West,13,50
+2026-06-21,Calculator,Electronics,East,18,650
+2026-06-24,Headphones,Electronics,South,5,1200
+2026-06-27,Backpack,Accessories,North,10,900
+2026-06-30,Notebook,Stationery,North,15,50
