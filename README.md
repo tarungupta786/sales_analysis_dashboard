@@ -84,4 +84,32 @@ Upload a CSV from the sidebar. It must contain these columns:
 | `Category` | Product category |
 | `Region` | Sales region |
 | `Units Sold` | Number of units (numeric) |
-|
+| `Unit Price` | Price per unit (numeric) |
+
+`Revenue` is calculated automatically as `Units Sold × Unit Price`. Rows with missing or invalid values in these columns are dropped. Use `sample_sales.csv` as a template.
+
+## 🧭 Dashboard Walkthrough
+
+1. **Filter** the data using the sidebar (dates, categories, regions, products).
+2. **Read the KPIs** at the top for a quick performance summary.
+3. **Explore the charts** to spot trends, best sellers and strong regions.
+4. **Download** the filtered table as CSV for further analysis.
+
+## 🔮 Future Improvements
+
+- Sales forecasting
+- Profit and discount analysis
+- Customer segmentation
+- Deployment on Streamlit Community Cloud
+- Support for Excel uploads
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Tarun Gupta**
+GitHub: [@tarungupta786](https://github.com/tarungupta786)
+
+⭐ If you found this project useful, consider giving it a star!
