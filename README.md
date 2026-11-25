@@ -1,43 +1,97 @@
-# Sales Data Analysis and Visualization Dashboard
+📊 Sales Insights Dashboard
 
-A beginner-friendly project using Python, Streamlit, Pandas, and Plotly.
+An interactive Streamlit dashboard for exploring sales data. Upload your own CSV (or use the built-in sample data) and instantly see revenue, products, categories, regions and monthly trends, with filters and CSV export.
 
-## Features
-- Upload a sales CSV file
-- Filter by date, category, region, and product
-- KPI cards for revenue, units sold, sales records, and average revenue per record
-- Monthly revenue trend
-- Revenue by category
-- Top products by revenue
-- Revenue contribution by region
-- View and download filtered data
-- Quick insights based on selected filters
+The included sample_sales.csv is fictional and meant for learning and demonstration.
 
-## Run locally
+📌 Table of Contents
+Features
+Tech Stack
+Project Structure
+Getting Started
+Using Your Own Data
+Dashboard Walkthrough
+Future Improvements
+License
+Author
+✨ Features
+Upload your own CSV or explore the bundled sample dataset
+Smart validation: clear error messages for missing columns, and invalid rows are cleaned automatically
+Sidebar filters: order date range, category, region and product
+KPI cards: Total Revenue, Units Sold, Sales Records, Average Revenue per Record
+Interactive Plotly charts:
+Monthly revenue trend (line)
+Revenue by category (bar)
+Top 10 products by revenue (horizontal bar)
+Regional contribution (donut)
+Filtered data table with one-click CSV download
+Quick insights: top product, category and region at a glance
+Handles empty data and empty filter results gracefully
+🛠 Tech Stack
+Area	Tools
+Framework	Streamlit
+Data processing	Pandas
+Visualization	Plotly Express
+Language	Python 3.9+
+📁 Project Structure
+sales_analysis_dashboard/
+├── app.py              # Streamlit dashboard
+├── sample_sales.csv    # Fictional sample dataset (also usable as a template)
+├── requirements.txt    # Python dependencies
+├── LICENSE
+└── README.md
 
-Python 3.10+ is recommended.
+If your main file has a different name, replace app.py in this README.
 
-### Linux / macOS
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
+🚀 Getting Started
+Clone the repository
+bash
+git clone https://github.com/tarungupta786/sales_analysis_dashboard.git
+cd sales_analysis_dashboard
+(Optional) Create a virtual environment
+bash
+python -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+Install dependencies
+bash
 pip install -r requirements.txt
+
+Or install manually: pip install streamlit pandas plotly 4. Run the app
+
+bash
 streamlit run app.py
-```
+Open the local URL shown in your terminal (usually http://localhost:8501).
+📂 Using Your Own Data
 
-### Windows
-```powershell
-py -m venv .venv
-.venv\\Scripts\\activate
-pip install -r requirements.txt
-streamlit run app.py
-```
+Upload a CSV from the sidebar. It must contain these columns:
 
-Streamlit normally opens at `http://localhost:8501`.
+Column	Description
+Order Date	Date of the sale (e.g. 2025-03-15)
+Product	Product name
+Category	Product category
+Region	Sales region
+Units Sold	Number of units (numeric)
+Unit Price	Price per unit (numeric)
 
-## CSV columns required
-`Order Date`, `Product`, `Category`, `Region`, `Units Sold`, `Unit Price`
+Revenue is calculated automatically as Units Sold × Unit Price. Rows with missing or invalid values in these columns are dropped. Use sample_sales.csv as a template.
 
-The dashboard calculates `Revenue = Units Sold × Unit Price`.
+🧭 Dashboard Walkthrough
+Filter the data using the sidebar (dates, categories, regions, products).
+Read the KPIs at the top for a quick performance summary.
+Explore the charts to spot trends, best sellers and strong regions.
+Download the filtered table as CSV for further analysis.
+🔮 Future Improvements
+Sales forecasting
+Profit and discount analysis
+Customer segmentation
+Deployment on Streamlit Community Cloud
+Support for Excel uploads
+📄 License
 
-`sample_sales.csv` contains fictional sample records, not real company data.
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+👤 Author
+
+Tarun Gupta GitHub: @tarungupta786
+
+⭐ If you found this project useful, consider giving it a star!
